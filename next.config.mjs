@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export', // <<< TAMBAHKAN ATAU UBAH BARIS INI
   eslint: {
     ignoreDuringBuilds: true,
   },

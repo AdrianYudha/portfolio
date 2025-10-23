@@ -51,17 +51,17 @@ export default function Home() {
   const scrollToTop = () => window.scrollTo({ top: 0, behavior: "smooth" })
 
   const codeSnippets = [
-    "const developer = 'Rupesh Bhandari';",
+    "const developer = 'Dhimas Adrian Arby Wirayudha';",
     "function buildAmazingApps() {",
-    "  return 'Laravel + React';",
+    "  return '.......';",
     "}",
     "// Coffee.exe has stopped working",
-    "git commit -m 'Another day, another bug fixed'",
-    "console.log('Hello, World! 👋');",
+    // "git commit -m 'Another day, another bug fixed'",
+    // "console.log('Hello, World! 👋');",
   ]
 
   const developerStates = [
-    { icon: <Code className="h-4 w-4" />, text: "Coding", color: "text-green-500" },
+    { icon: <Code className="h-4 w-4" />, text: "Network", color: "text-green-500" },
     { icon: <Coffee className="h-4 w-4" />, text: "Caffeinating", color: "text-amber-500" },
     { icon: <Bug className="h-4 w-4" />, text: "Debugging", color: "text-red-500" },
     { icon: <Zap className="h-4 w-4" />, text: "Optimizing", color: "text-blue-500" },
@@ -254,12 +254,12 @@ export default function Home() {
 
           <div className="flex items-center gap-2">
             <Button variant="ghost" size="icon" className="rounded-full" asChild>
-              <Link href="https://github.com" target="_blank" aria-label="GitHub">
+              <Link href="https://github.com/AdrianYudha" target="_blank" aria-label="GitHub">
                 <Github className="h-4 w-4" />
               </Link>
             </Button>
             <Button variant="ghost" size="icon" className="rounded-full" asChild>
-              <Link href="https://www.linkedin.com/in/rupesh-bhandari-5977b525a" target="_blank" aria-label="LinkedIn">
+              <Link href="#" target="_blank" aria-label="LinkedIn">
                 <Linkedin className="h-4 w-4" />
               </Link>
             </Button>
@@ -420,7 +420,7 @@ export default function Home() {
                   </motion.div>
 
                   <motion.p
-                    className="max-w-[600px] text-slate-700 dark:text-slate-300 md:text-xl mt-4"
+                    className="max-w-[600px] text-slate-700 dark:text-slate-300 md:text-xl mt-4 text-justify"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.8 }}
@@ -475,7 +475,7 @@ export default function Home() {
                       className="rounded-full h-9 w-9 bg-transparent hover:scale-110 transition-transform"
                       asChild
                     >
-                      <Link href="https://github.com" target="_blank" aria-label="GitHub">
+                      <Link href="https://github.com/AdrianYudha" target="_blank" aria-label="GitHub">
                         <Github className="h-4 w-4" />
                       </Link>
                     </Button>
@@ -486,7 +486,7 @@ export default function Home() {
                       asChild
                     >
                       <Link
-                        href="https://www.linkedin.com/in/rupesh-bhandari-5977b525a"
+                        href=""
                         target="_blank"
                         aria-label="LinkedIn"
                       >
@@ -572,7 +572,7 @@ export default function Home() {
         </section>
 
         {/* About Section */}
-        <section id="about" className="py-20 md:py-32 relative">
+        <section id="about" className="py-20 md:py-32 relative textjus">
           <div className="container px-4 md:px-6">
             <div className="mx-auto max-w-6xl">
               <div className="grid gap-12 lg:grid-cols-2 items-center">
@@ -674,9 +674,9 @@ export default function Home() {
                   </p>
                   <div className="grid grid-cols-2 gap-4">
                     {[
-                      { number: "3+", label: "Years Experience" },
-                      { number: "50+", label: "Projects Completed" },
-                      { number: "30+", label: "Happy Clients" },
+                      { number: "< 1", label: "Years Experience" },
+                      { number: "....", label: "Projects Completed" },
+                      { number: "....", label: "Happy Clients" },
                       { number: "8+", label: "Technologies" },
                     ].map((stat, index) => (
                       <motion.div
@@ -1206,13 +1206,13 @@ export default function Home() {
             </div>
             <div className="flex items-center gap-4">
               <Button variant="ghost" size="icon" className="rounded-full" asChild>
-                <Link href="https://github.com" target="_blank" aria-label="GitHub">
+                <Link href="https://github.com/AdrianYudha" target="_blank" aria-label="GitHub">
                   <Github className="h-4 w-4" />
                 </Link>
               </Button>
               <Button variant="ghost" size="icon" className="rounded-full" asChild>
                 <Link
-                  href="https://www.linkedin.com/in/rupesh-bhandari-5977b525a"
+                  href=""
                   target="_blank"
                   aria-label="LinkedIn"
                 >

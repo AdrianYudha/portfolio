@@ -53,31 +53,38 @@ export default function ResumePage() {
 
           {/* Professional Summary */}
           <section className="mb-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-purple-600 pb-2">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-purple-800 pb-2">
               Ringkasan Profil
             </h2>
-            <p className="text-gray-700 leading-relaxed">
+            <p className="text-gray-700 leading-relaxed text-justify">
               Mahasiswa S1 Ilmu Komputer (Semester 8) Universitas Muhammadiyah Metro yang memahami hardware dan software
               komputer, instalasi dan konfigurasi sistem operasi (Windows, Linux), konfigurasi Mikrotik (manajemen
-              bandwidth, hotspot, DNS, routing, VPN), serta dasar pemrograman (HTML, CSS, JavaScript, PHP, Python) dan
-              pembuatan landing page menggunakan Tailwind CSS. Terbiasa menggunakan tools AI.
+              bandwidth, hotspot, DNS, routing, VPN), serta Basic dasar pemrograman (HTML, CSS, JavaScript, PHP, Python) dan
+              pembuatan landing page menggunakan Tailwind CSS, serta terbiasa menggunakan tools AI.
             </p>
           </section>
 
           {/* Technical Skills */}
-          <section className="mb-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-purple-600 pb-2">Keterampilan</h2>
+          <section className="mb-8 text-justify">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-purple-800 pb-2">Keterampilan</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div>
                 <h3 className="font-semibold text-gray-900 mb-2">Teknis</h3>
                 <ul className="list-disc list-inside text-gray-700 space-y-1">
                   <li>Memahami hardware dan software komputer</li>
+            <h2 className="border-b-2 border-purple-500"></h2>
                   <li>Instalasi & konfigurasi OS (Windows, Linux)</li>
+            <h2 className="border-b-2 border-purple-500"></h2>
                   <li>Merakit, upgrade komponen & troubleshooting komputer</li>
-                  <li>Konfigurasi Mikrotik: Bandwidth, Hotspot, DNS, NAT, OSPF, L2TP, Tunnel, VPN, PPPoE, Failover</li>
-                  <li>Konsep jaringan: Firewall, RoMON, Static & Dynamic Routing</li>
+            <h2 className="border-b-2 border-purple-500"></h2>
+                  <li>Konfigurasi Mikrotik: Bandwidth, Hotspot, DNS, NAT, OSPF, L2TP, VPN, PPPoE, Failover</li>
+            <h2 className="border-b-2 border-purple-500"></h2>
+                  <li>Memahami Konsep jaringan: Firewall, RoMON, Static & Dynamic Routing</li>
+            <h2 className="border-b-2 border-purple-500"></h2>
                   <li>Memahami basic pemrograman: HTML, CSS, JavaScript, PHP, Python</li>
+            <h2 className="border-b-2 border-purple-500"></h2>
                   <li>Membuat landing page (Bootstrap, Tailwind CSS)</li>
+            <h2 className="border-b-2 border-purple-500"></h2>
                   <li>Terbiasa menggunakan Tools AI</li>
                 </ul>
               </div>
@@ -85,40 +92,48 @@ export default function ResumePage() {
                 <h3 className="font-semibold text-gray-900 mb-2">Lainnya</h3>
                 <ul className="list-disc list-inside text-gray-700 space-y-1">
                   <li>Time management, komunikasi efektif</li>
-                  <li>Critical thinking, teamwork, adaptif</li>
+            <h2 className="border-b-2 border-purple-500"></h2>
+                  <li>Teamwork, adaptif</li>
+            <h2 className="border-b-2 border-purple-500"></h2>
                 </ul>
               </div>
             </div>
           </section>
 
           {/* Professional Experience */}
-          <section className="mb-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-purple-600 pb-2">
-              Pengalaman Kerja
-            </h2>
-
+          {/* <section className="mb-8"> */}
+            {/* <h2 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-purple-600 pb-2"> */}
+              {/* Pengalaman Kerja */}
+            {/* </h2> */}
+{/*  */}
             {/* Add more projects or experiences if needed */}
-          </section>
+          {/* </section> */}
 
           {/* Projects & Achievements */}
           <section className="mb-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-purple-600 pb-2">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-purple-800 pb-2">
               Proyek Yang Pernah Dikerjakan
             </h2>
             <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4">
               <li>Troubleshoot Komputer & Lab Komputer</li>
+            <h2 className="border-b-2 border-purple-500"></h2>
               <li>Instalasi OS Windows 10, Linux (Mint, Ubuntu) dan Microsoft Office 2007 & 2021</li>
+            <h2 className="border-b-2 border-purple-500"></h2>
               <li>
                 MikroTik: Hotspot, Bridge, Manajemen Bandwidth, User Profiles & Users, Setting TP-Link, Design Captive
                 Portal
+            <h2 className="border-b-2 border-purple-500"></h2>
               </li>
-              <li>Website Sistem Informasi Buah Buahan (HTML, Tailwind CSS, PHP)</li>
+              <li>Website Sistem Informasi Buah
+                Buahan (HTML, Tailwind CSS, PHP)</li>
+            <h2 className="border-b-2 border-purple-500"></h2>
+
             </ul>
           </section>
 
           {/* Education */}
           <section className="mb-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-purple-600 pb-2">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-purple-800 pb-2">
               Riwayat Pendidikan
             </h2>
             <div className="space-y-4">
@@ -126,7 +141,7 @@ export default function ResumePage() {
                 <div className="flex justify-between items-start">
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900">Universitas Muhammadiyah Metro</h3>
-                    <p className="text-gray-600">S1 Ilmu Komputer · Semester 8 (Menunggu Yudisium dan Wisuda)</p>
+                    <p className="text-gray-600">S1 Ilmu Komputer · Semester 8 (Menunggu Wisuda)</p>
                   </div>
                   <p className="text-gray-600">2021 – Sekarang</p>
                 </div>
@@ -152,7 +167,7 @@ export default function ResumePage() {
                 <li>• Self-Motivated</li>
                 <li>• Effective Communication</li>
                 <li>• Time Management</li>
-                <li>• Critical Thinking</li>
+                {/* <li>• Critical Thinking</li> */}
                 <li>• Teamwork & Adaptability</li>
               </ul>
             </section>
@@ -168,10 +183,10 @@ export default function ResumePage() {
           </div>
 
           {/* References */}
-          <section className="mb-8">
+          {/* <section className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-purple-600 pb-2">Referensi</h2>
             <p className="text-gray-700 italic">Tersedia jika diminta</p>
-          </section>
+          </section> */}
         </div>
       </div>
     </div>

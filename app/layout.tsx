@@ -11,9 +11,9 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Rupesh Bhandari - Full-stack Developer",
+  title: "Dhimas Adrian Arby Wirayudha",
   description:
-    "Frontend Developer with 3+ years of experience in React Native, Expo, React, Tailwind CSS, and Laravel. Based in Lalitpur, Nepal.",
+    ".....",
     generator: 'v0.app'
 }
 

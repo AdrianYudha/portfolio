@@ -426,7 +426,7 @@ export default function Home() {
                     transition={{ delay: 0.8 }}
                   >
                     {
-                      "Mahasiswa S1 Ilmu Komputer (Semester 8) yang memahami hardware/software komputer, instalasi & konfigurasi OS (Windows, Linux), Mikrotik (Bandwidth, Hotspot, DNS, Routing, VPN), serta basic pemrograman (HTML, CSS, JS, PHP, Python) dan Tailwind CSS."
+                      "Memahami hardware/software komputer, instalasi & konfigurasi OS (Windows, Linux), Mikrotik (Management Bandwidth: Simple Queue, PCQ, Hotspot, DNS, Static Routing, Dynamic Routing, OSFP, PPOE), serta basic dasar pemrograman (HTML, CSS, JS, PHP, Python) dan Bostrap Tailwind CSS."
                     }
                   </motion.p>
                 </div>
@@ -572,7 +572,7 @@ export default function Home() {
         </section>
 
         {/* About Section */}
-        <section id="about" className="py-20 md:py-32 relative textjus">
+        <section id="about" className="py-20 md:py-32 relative text-justify">
           <div className="container px-4 md:px-6">
             <div className="mx-auto max-w-6xl">
               <div className="grid gap-12 lg:grid-cols-2 items-center">
@@ -609,7 +609,7 @@ export default function Home() {
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.2 }}
                       >
-                        Saya Dhimas Adrian Arby Wirayudha, lulusan S1 Ilmu Komputer (menunggu yudisium & wisuda) dengan
+                        Saya Dhimas Adrian Arby Wirayudha, dengan
                         latar belakang Teknik Komputer & Jaringan. Terbiasa dengan Windows & Linux (Debian-based),
                         instalasi dan konfigurasi sistem operasi, perakitan/upgrade komponen komputer, serta
                         troubleshooting.
